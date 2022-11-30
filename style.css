@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-weight: 300;
+    font-size: 24px;
+}
+
+body{
+    background-color: rgb(159, 202, 240);
+}
+.main-div{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px pink;
+
+}
+.inner-{
+    min-width: 40vw;
+   
+    
+    border-radius: 20px;
+    background-color: white;
+    padding:30px;
+}
+ul li{
+    list-style: none;
+    padding-left: 40px;
+    
+}
+question h1{
+    font-style: italic;
+    font-weight:bold;
+
+}
+.second-div{
+    margin-top: 20px;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: center;
+    
+}
+.submit-btn{
+    background-color: aqua;
+    font-size: 16px;
+    color: white;
+    width: 120px;
+    padding: 4px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+}
+.score{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin : 10px;
+    padding:10px;
+
+}
